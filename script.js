@@ -1,0 +1,1 @@
+function go(n){document.querySelectorAll(".page").forEach(x=>x.classList.remove("active"));document.getElementById("p"+n).classList.add("active");scrollTo(0,0)}window.onload=()=>{if(window.QRCode)new QRCode(document.getElementById("qrcode"),{text:"https://www.google.com/maps/search/?api=1&query=Madhuban%20Restaurant%20Qatar",width:150,height:150})}
